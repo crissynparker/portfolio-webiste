@@ -7,7 +7,7 @@ body {
 }
 
 #portfolio {
-    height: 1650px;
+    height: 1450px;
 }
 
 #about {
@@ -39,14 +39,14 @@ body {
 header {
     background-image:url(img/hero-background.png);
     background-size: cover;
-    height: 600px;
+    height: 800px;
 }
 
 header h1 {
     font-family: 'Roboto Slab',serif;
-    font-size: 57px;
+    font-size: 60pt;
     font-weight:700;
-    line-height: 50px;
+    line-height: 63pt;
     margin-top: 0;
     padding: 160px 0 0 150px;
     text-align: left;
@@ -55,10 +55,10 @@ header h1 {
 header h2 {
     clear: left;
     font-family: 'Roboto Slab', serif;
-    font-size: 47px;
+    font-size: 48pt;
     color: teal;
     text-align: left;
-    font-weight: 600;
+    font-weight: 500;
     padding: 0 100px 0 300px
 }
 
@@ -74,8 +74,8 @@ header h2 {
 
 #portfolio h3  {
     font-family: 'Roboto Slab',serif;
-    font-size: 47px;
-    font-weight: 600;
+    font-size: 36pt;
+    font-weight: 700;
     text-align: center;
 }
 
@@ -110,14 +110,14 @@ header h2 {
 .jubilee-austen p,
 .recipe-card p {
     font-family: 'Roboto Slab', serif;
-    font-size: 17px;
-    line-height: 23px;
+    font-size: 24pt;
+    line-height: 24pt;
     margin-top: 0;
     float:left;
 }
 #portfolio a {
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
+    font-size: 24pt;
     color: teal;
     text-decoration: none;
     float:left;
@@ -141,8 +141,8 @@ header h2 {
 #about h3 {
     color: ghostwhite;
     font-family: 'Roboto Slab', serif;
-    font-size: 34px;
-    font-weight: lighter;
+    font-size: 36pt;
+    font-weight: 700;
     padding-bottom: 40px;
     text-align: right;
 }
@@ -156,8 +156,8 @@ header h2 {
 #about h4 {
     color: gainsboro;
     font-family: 'Roboto Slab', serif;
-    font-size: 26px;
-    font-weight: 600;
+    font-size: 24pt;
+    font-weight: 500;
     letter-spacing: 1px;
     margin-top: 0;
 }
@@ -165,10 +165,10 @@ header h2 {
 #about p {
     color: gainsboro;
     font-family: 'Roboto Slab', serif;
-    font-size: 18px;
-    font-weight: 300;
+    font-size: 24pt;
+    font-weight: 500;
     letter-spacing:normal;
-    line-height: 23px;
+    line-height: 24pt;
     margin-top: 0;
 }
 
@@ -183,24 +183,24 @@ header h2 {
 #contact h3 {
     color: ghostwhite;
     font-family: 'Roboto Slab', serif;
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24pt;
+    font-weight: 700;
     margin-top: 0;
 }
 
 #contact h4 {
     color: teal;
     font-family: 'Roboto Slab', serif;
-    font-size: 18px;
+    font-size: 24pt;
     font-weight: 300;
-    line-height: 23px;
+    line-height: 24pt;
     margin-top: 0;
 }
 
 #contact a {
     color: teal;
     font-family: 'Roboto Slab', serif;
-    font-size: 18px;
+    font-size: 24pt;
     text-decoration: none;
 }
 
@@ -217,5 +217,5 @@ header h2 {
 }
 
 #contact .copyright p {
-    font-size: 14px;
+    font-size: 14pt;
 }
