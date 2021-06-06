@@ -1,0 +1,221 @@
+/*****BASE STYLES*****/
+
+body {
+    color: limegreen;
+    font-family: Roboto Slab, serif;
+    margin: 0 auto;
+}
+
+#portfolio {
+    height: 1650px;
+}
+
+#about {
+    height: 650px;
+}
+
+#contact {
+    height: 400px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    margin: 0 auto;
+    width: 1200px;
+}
+
+.half-width {
+    float: left;
+    width: 600px;
+}
+
+.third-width {
+    float: left;
+    width: 400px;
+}
+/***** HEADER *****/
+
+header {
+    background-image:url(img/hero-background.png);
+    background-size: cover;
+    height: 600px;
+}
+
+header h1 {
+    font-family: 'Roboto Slab',serif;
+    font-size: 57px;
+    font-weight:700;
+    line-height: 50px;
+    margin-top: 0;
+    padding: 160px 0 0 150px;
+    text-align: left;
+}
+
+header h2 {
+    clear: left;
+    font-family: 'Roboto Slab', serif;
+    font-size: 47px;
+    color: teal;
+    text-align: left;
+    font-weight: 600;
+    padding: 0 100px 0 300px
+}
+
+/*****PORTFOLIO*****/
+
+#portfolio .full-width {
+    clear: both;
+    overflow: auto;
+    padding: 20px 10px 10px 20px;
+    height: 1650px;
+
+}
+
+#portfolio h3  {
+    font-family: 'Roboto Slab',serif;
+    font-size: 47px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.rouge-image,
+.jubilee-image,
+.recipe-image {
+    float: left;
+    height: auto;
+}
+
+.rouge-image {
+    padding-bottom: 10px;
+}
+
+.jubilee-image {
+    padding-bottom: 10px;
+}
+
+.recipe-image {
+    padding-bottom: 20px;
+}
+
+.rouge-pickings h4,
+.jubilee-austen h4,
+.recipe-card h4 {
+    margin-bottom: 0;
+    margin-top: 0;
+    float:left;
+}
+
+.rouge-pickings p,
+.jubilee-austen p,
+.recipe-card p {
+    font-family: 'Roboto Slab', serif;
+    font-size: 17px;
+    line-height: 23px;
+    margin-top: 0;
+    float:left;
+}
+#portfolio a {
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    color: teal;
+    text-decoration: none;
+    float:left;
+}
+
+.rouge-pickings {
+    padding: 20px;
+}
+
+.jubilee-austen {
+    padding-bottom: 179px;
+}
+/****** ABOUT ME ******/
+
+#about {
+    background-color: darkcyan;
+    padding: 20px 80px 0 80px;
+    
+} 
+
+#about h3 {
+    color: ghostwhite;
+    font-family: 'Roboto Slab', serif;
+    font-size: 34px;
+    font-weight: lighter;
+    padding-bottom: 40px;
+    text-align: right;
+}
+
+.about-image {
+    float: left;
+    height: auto;
+    padding: 20px 10px 10px 20px;
+}
+
+#about h4 {
+    color: gainsboro;
+    font-family: 'Roboto Slab', serif;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-top: 0;
+}
+
+#about p {
+    color: gainsboro;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing:normal;
+    line-height: 23px;
+    margin-top: 0;
+}
+
+/*****CONTACT*****/
+
+#contact {
+    background-color: teal;
+    padding: 20px 80px 0 80px;
+    text-align: center;
+}
+
+#contact h3 {
+    color: ghostwhite;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+#contact h4 {
+    color: teal;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 23px;
+    margin-top: 0;
+}
+
+#contact a {
+    color: teal;
+    font-family: 'Roboto Slab', serif;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#contact ul {
+    list-style: none;
+}
+
+#contact ul li {
+    display: inline-block;
+}
+
+#contact ul img {
+    padding: 0 28px 80px 0;
+}
+
+#contact .copyright p {
+    font-size: 14px;
+}
