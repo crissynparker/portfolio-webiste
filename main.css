@@ -1,7 +1,7 @@
 /*****BASE STYLES*****/
 
 body {
-    color: limegreen;
+    color:#bdbf09;
     font-family: Roboto Slab, serif;
     margin: 0 auto;
 }
@@ -58,7 +58,7 @@ header h2 {
     font-size: 48pt;
     color: teal;
     text-align: left;
-    font-weight: 500;
+    font-weight: 700;
     padding: 0 100px 0 300px
 }
 
@@ -136,10 +136,11 @@ header h2 {
 }
 /****** ABOUT ME ******/
 
-#about {
-    background-color: darkcyan;
+#about .full-width {
+    background-color: #087e8b;
     padding: 20px 80px 0 80px;
-    
+    height: 650;
+    margin-top: auto;
 } 
 
 #about h3 {
@@ -180,10 +181,11 @@ header h2 {
 
 /*****CONTACT*****/
 
-#contact {
-    background-color: teal;
+#contact .full-width {
+    background-color: #095156;
     padding: 20px 80px 0 80px;
     text-align: center;
+    height: 400;
 }
 
 #contact h3 {
