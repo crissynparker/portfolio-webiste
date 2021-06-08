@@ -98,20 +98,20 @@ header h2 {
 
 .rouge-image {
     padding-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 130px;
     margin-bottom: 20px;
     padding-left: 50px;
 }
 
 .jubilee-image {
     padding-bottom: 20px;
-    margin-top: auto;
+    margin-top: 47px;
     padding-left: 50px;
 }
 
 .recipe-image {
     padding-bottom: 20px;
-    margin-top: auto;
+    margin-top: 40px;
     padding-left: 50px;
     margin-bottom: 20px;
 }
@@ -125,12 +125,11 @@ header h2 {
     padding-left: 50px;
     padding-right: 50px;
     color: #095156;
-    padding-bottom: 20px;
 
 }
 
 .rouge-pickings a {
-    margin-top: 225px;
+    margin-top: 85px;
 }
 
 .rouge-pickings p,
@@ -143,8 +142,8 @@ header h2 {
     font-weight: 400;
     padding-left: 50px;
     padding-right: 50px;
-    margin-top: auto;
     color: #087e8b;
+    margin-top: auto;
 
 }
 #portfolio a {
@@ -153,7 +152,6 @@ header h2 {
     color:  #087e8b;
     text-decoration: none;
     float:left;
-    margin-top: auto;
 }
 
 /****** ABOUT ME ******/
