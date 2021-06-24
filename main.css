@@ -329,3 +329,11 @@ header h2 {
     line-height: 16pt;
 
 }
+
+@media only screen and (min-width: 768px) {
+/*Tablet styles here*/
+}
+ 
+@media only screen and (min-width: 1200px) {
+/*Desktop styles here*/
+}
